@@ -4,7 +4,7 @@ from django.http import JsonResponse, HttpResponseNotAllowed
 # Vista para API simple que responde con JSON
 def home(request):
     if request.method == "GET":
-        return JsonResponse({"message": "Bienvenido desde Django Backend"})
+        return JsonResponse({"message": "Bienvenido desde Django Backend hey actualizacoin desde git en backend"})
     else:
         # Responder solo a GET, para otros métodos devolver error 405
         return HttpResponseNotAllowed(['GET'])
