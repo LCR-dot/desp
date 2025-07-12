@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="container">
       <div className="card">
-        <h1 className="title">Página de Presencia</h1>
+        <h1 className="title">Página de Presenciaaaa</h1>
         <p className="message">{message}</p>
       </div>
     </div>
